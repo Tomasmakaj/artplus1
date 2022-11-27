@@ -1,0 +1,25 @@
+.mission__art{
+    font-size: large;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    color: orangered;
+}
+
+h5 {
+    color: navy;
+}
+
+@media screen and (max-width: 940px) {
+    .mission__art {
+        display: block;
+    }
+}
