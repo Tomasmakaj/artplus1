@@ -5,6 +5,7 @@ import Card from './components/card/Card'
 import Mission from './components/mission/Mission'
 import Partner from './components/partner/Partner';
 import Architects from './components/architects/Architects';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Card />
       <Partner />
       <Architects />
+      <Contact />
     </div>
   );
 }

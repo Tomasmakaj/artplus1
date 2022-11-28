@@ -1,0 +1,98 @@
+#reach {
+  position: relative;
+  left: 50%;
+  transform: translate(-30%);
+  padding-top: 10vh;
+}
+
+.products {
+  position: relative;
+  left: 6.5rem;
+  transform: translate(-35%);
+  padding-bottom: 5vh;
+}
+
+
+.dm {
+    flex: auto;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    align-items: center;
+}
+.mails {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.mail {
+    background: white;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1.5px solid navy;
+    transition: var(--transition);
+}
+
+.mail:hover {
+    background: transparent;
+    border-color: navy;
+}
+
+.mail-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mail h5 {
+    color: var(--color-light);
+}
+
+.mail a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: white;
+  border: 1.5px solid navy;
+  resize: none;
+  color: navy;
+}
+
+element.style{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .dm {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .dm {
+      width: var(--container-width-sm);
+    }
+  }
+  

@@ -1,7 +1,8 @@
 .architects a {
-font-size: x-large;
-justify-content: space-evenly;
-padding-left: 3.5rem;
+    display: inline-flex;
+    font-size: large;
+    justify-content: space-between;
+    padding-left: 7rem;
 }
 
 @media screen and (max-width: 940px) {
