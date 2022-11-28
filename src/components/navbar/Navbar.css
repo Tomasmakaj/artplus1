@@ -25,6 +25,7 @@
 
 .hamburger {
     display: none;
+    color: orangered;
 }
 
 .icon {
@@ -32,8 +33,8 @@
 }
 
 .navBarLogo {
-    height: 40px;
-    margin-top: -17px;
+    height: 3.5rem;
+    margin-top: -1.5rem;
     object-fit: scale-down;
 }
 

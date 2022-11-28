@@ -1,11 +1,15 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import './Card.css'
+
+import art10 from '../../assets/art10.jpeg'
+import artSmall from '../../assets/artSmall.png'
 
 function GroupExample() {
   return (
     <CardGroup>
       <Card className='card'>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={artSmall} className='smallLogo'/>
         <Card.Body>
           <Card.Title> About Art +1 </Card.Title>
           <Card.Text>
@@ -15,7 +19,7 @@ function GroupExample() {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={art10} />
         <Card.Body>
           <Card.Title> Commercial & Residential Construction </Card.Title>
           <Card.Text>
