@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Card from './components/card/Card'
 import Mission from './components/mission/Mission'
 import Partner from './components/partner/Partner';
+import Architects from './components/architects/Architects';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Mission />
       <Card />
       <Partner />
+      <Architects />
     </div>
   );
 }

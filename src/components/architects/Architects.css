@@ -1,0 +1,11 @@
+.architects a {
+font-size: x-large;
+justify-content: space-evenly;
+padding-left: 3.5rem;
+}
+
+@media screen and (max-width: 940px) {
+    .architects a {
+        display: block;
+    }
+}
