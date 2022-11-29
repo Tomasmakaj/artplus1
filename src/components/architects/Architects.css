@@ -3,6 +3,7 @@
     font-size: large;
     justify-content: space-between;
     padding-left: 7rem;
+    color: navy
 }
 
 @media screen and (max-width: 940px) {

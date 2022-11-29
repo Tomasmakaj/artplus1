@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.footer .col {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.footer .icon {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    color: white;
+    justify-content: center;
+    vertical-align: center;
+}
+
+p {
+    color:white
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .footer .container {
+        grid-template-columns: repeat(2,1fr);
+        gap: .5rem;
+    }
+}
+

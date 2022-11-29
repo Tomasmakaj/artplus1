@@ -6,6 +6,7 @@ import Mission from './components/mission/Mission'
 import Partner from './components/partner/Partner';
 import Architects from './components/architects/Architects';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Card />
       <Partner />
       <Architects />
-      <Contact />
+      {/* <Contact /> */}
+      <Footer />
     </div>
   );
 }

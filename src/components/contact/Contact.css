@@ -1,4 +1,4 @@
-#reach {
+/* #reach {
   position: relative;
   left: 50%;
   transform: translate(-30%);
@@ -82,6 +82,18 @@ element.style{
   justify-items: center;
 }
 
+.contact__option-icon {
+  font-size: 2rem;
+}
+
+h4 {
+  color: orangered;
+}
+
+h5 {
+  color: navy;
+}
+
 
 @media screen and (max-width: 1024px) {
     .dm {
@@ -95,4 +107,4 @@ element.style{
       width: var(--container-width-sm);
     }
   }
-  
+   */
