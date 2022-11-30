@@ -1,24 +1,26 @@
-/* #reach {
+#reach {
   position: relative;
-  left: 50%;
+  left: 45%;
   transform: translate(-30%);
-  padding-top: 10vh;
+  padding-top: 1vh;
+  padding-right: 8rem;
 }
 
 .products {
   position: relative;
-  left: 6.5rem;
+  left: 6rem;
   transform: translate(-35%);
   padding-bottom: 5vh;
+  justify-content: center;
 }
 
 
 .dm {
     flex: auto;
-    width: 58%;
+    width: 50%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 40% 50%;
+    gap: 3%;
     align-items: center;
 }
 .mails {
@@ -47,7 +49,8 @@
 }
 
 .mail h5 {
-    color: var(--color-light);
+    color: navy;
+    font-size: medium;
 }
 
 .mail a {
@@ -60,14 +63,14 @@
 form {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.0rem;
   align-items: center;
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 1.5rem;
+  padding: 0.7rem;
   border-radius: 0.5rem;
   background: white;
   border: 1.5px solid navy;
@@ -107,4 +110,4 @@ h5 {
       width: var(--container-width-sm);
     }
   }
-   */
+  

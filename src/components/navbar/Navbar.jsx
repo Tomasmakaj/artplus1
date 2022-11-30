@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
+import { NavLink } from "react-router-dom";
+
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import {FaRegTimesCircle} from 'react-icons/fa'
 import artSmall from '../../assets/artSmall.png'

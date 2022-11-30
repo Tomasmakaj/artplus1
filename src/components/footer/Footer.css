@@ -19,18 +19,19 @@
 .footer .icon {
     font-size: 2rem;
     margin: 1rem 1rem;
-    color: white;
+    color: navy;
     justify-content: center;
     vertical-align: center;
 }
 
 p {
-    color:white
+    color:navy;
+    font-size: small;
 }
 
 
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 930px) {
     .footer .container {
         grid-template-columns: repeat(2,1fr);
         gap: .5rem;

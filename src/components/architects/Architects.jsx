@@ -5,7 +5,7 @@ import './Architects.css'
 const Architects = () => {
   return (
     <div>
-        <h1>Overlook of our Architects</h1>
+        <h3>Overlook of our Architects</h3>
         <div className='architects'>
         <a href="https://www.lamarca-butler.com/" target="_blank">LAMARCA | BUTLER GROUP</a>
         <a href="https://www.janekimarchitect.com/" target="_blank">JANE KIM DESIGN</a>
